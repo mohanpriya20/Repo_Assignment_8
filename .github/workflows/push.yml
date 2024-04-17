@@ -21,7 +21,7 @@ env:
   BUILD_CONFIGURATION: Release
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   build:
@@ -109,6 +109,3 @@ jobs:
           - name: push
             working-directory: ${{env.GITHUB_WORKSPACE}} 
             run: git push
-        
-              
-    
