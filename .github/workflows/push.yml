@@ -100,7 +100,7 @@ jobs:
             
           - name: add
             working-directory: ${{env.GITHUB_WORKSPACE}} 
-            run: git add PipelinesExe.exe
+            run: git add PipeplinesExe.exe
     
           - name: commit
             working-directory: ${{env.GITHUB_WORKSPACE}} 
